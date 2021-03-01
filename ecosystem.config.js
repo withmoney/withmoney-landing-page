@@ -33,7 +33,7 @@ module.exports = {
       path: process.env.DEPLOY_PATH,
       "post-deploy": [
         "yarn",
-        // "yarn build",
+        "yarn build",
         // `pm2 reload ecosystem.config.js --env production --name ${process.env.DEPLOY_NAME}`,
       ].join(" && "),
     },
