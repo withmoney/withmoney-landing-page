@@ -29,7 +29,7 @@ module.exports = {
       user: process.env.DEPLOY_USER,
       host: process.env.DEPLOY_HOST,
       ref: "origin/master",
-      repo: "git@github.com:withmoney/withmoney-landing.git",
+      repo: "git@github.com:withmoney/withmoney-landing-page.git",
       path: process.env.DEPLOY_PATH,
       "post-deploy": [
         "yarn",
