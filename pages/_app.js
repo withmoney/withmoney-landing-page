@@ -38,9 +38,9 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="96x96" href="/images/icons/favicon-96x96.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png" />
-        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileColor" content="#53BC5E" />
         <meta name="msapplication-TileImage" content="/images/icons/ms-icon-144x144.png" />
-        <meta name="theme-color" content="#ffffff" />
+        <meta name="theme-color" content="#53BC5E" />
         <link
           href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext"
           rel="stylesheet"
