@@ -93,7 +93,7 @@ const Home = () => {
                 <div className="text-container">
                   <h1>A easy way to organize your finances</h1>
                   <p className="p-large">
-                    We are providing the best solutions for how are looking for the best experiencee
+                    We are providing the best solutions for who are looking for the best experiencee
                   </p>
                   <a className="btn-solid-lg page-scroll" href="https://i.withmoney.me/#/signup">
                     SIGN UP
