@@ -25,6 +25,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <title>Withmoney</title>
         <link rel="apple-touch-icon" sizes="57x57" href="/images/icons/apple-icon-57x57.png" />
         <link rel="apple-touch-icon" sizes="60x60" href="/images/icons/apple-icon-60x60.png" />
         <link rel="apple-touch-icon" sizes="72x72" href="/images/icons/apple-icon-72x72.png" />
@@ -58,6 +59,17 @@ function MyApp({ Component, pageProps }) {
         <script src="/js/swiper.min.js" type="application/javascript"></script>
         <script src="/js/validator.min.js" type="application/javascript"></script>
         <script src="/js/scripts.js" type="application/javascript"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=%your code here%"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments)}
+        gtag("js", new Date());
+        gtag("config", "G-TCQ065X007");
+    `,
+          }}
+        ></script>
       </Head>
       <Component {...pageProps} />
     </>
