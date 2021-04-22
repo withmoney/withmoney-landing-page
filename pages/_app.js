@@ -59,7 +59,7 @@ function MyApp({ Component, pageProps }) {
         <script src="/js/swiper.min.js" type="application/javascript"></script>
         <script src="/js/validator.min.js" type="application/javascript"></script>
         <script src="/js/scripts.js" type="application/javascript"></script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=%your code here%"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TCQ065X007"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `

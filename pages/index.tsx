@@ -627,7 +627,7 @@ const Home = () => {
                     <span className="currency">$</span>
                     <span className="value">Free</span>
                   </div>
-                  <div className="frequency">6 months trial</div>
+                  <div className="frequency">12 months trial</div>
                   <div className="divider"></div>
                   <ul className="list-unstyled li-space-lg">
                     <li className="media">
